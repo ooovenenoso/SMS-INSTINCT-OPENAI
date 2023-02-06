@@ -1,5 +1,7 @@
 # SMS Instinct - A Discord Bot using OpenAI API
 
+![alt text](https://github.com/ooovenenoso/SMS-INSTINCT-OPENAI/blob/main/instinct.png)
+
 This code creates a Discord bot that uses OpenAI API to improve Spanish text for marketing purposes. When a user in Discord sends a message starting with "/instinct", the bot takes the following text and sends it to the OpenAI API to be improved. The API returns a response with the improved text, which is then sent back to the user through Discord.
 
 The code starts by importing the openai, discord, and os libraries. Then, the environment variables are set for the OpenAI API key and the Discord bot token. The Discord intents are configured to include information about members, presences, typing, and message content. A Discord client is created using these intents.
