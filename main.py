@@ -1,4 +1,4 @@
-# DisQRd: SMS INSTINCT
+# SMS INSTINCT
 # Author: ooovenenoso
 
 import openai
