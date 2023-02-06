@@ -11,7 +11,7 @@ Finally, an "on_message" event is created that is triggered when a user sends a 
 ## Usage
 
 1. Clone the repository to your local machine
-```git clone https://github.com/your-username/SMS-Instinct.git```
+```git clone https://github.com/ooovenenoso/SMS-INSTINCT-OPENAI.git```
 
 2. Navigate to the project directory
 ```cd SMS-Instinct```
@@ -21,4 +21,14 @@ Finally, an "on_message" event is created that is triggered when a user sends a 
 5. Run the code using python main.py
 ```python main.py```
 Now your bot is ready to use in your Discord server! Whenever a user starts a message with "/instinct", the bot will improve the text using OpenAI API and send it back to the user.
+
+# Use of OpenAI to Improve Text
+
+OpenAI uses GPT (Generative Pre-trained Transformer) models to improve text. These models are large neural networks trained with large amounts of text to develop a deep understanding of human language.
+
+In this code, the "text-davinci-002" model is being used, a specialized version of GPT-3 for text completion tasks. The OpenAI API uses this model to generate a continuation of the provided text in a coherent and consistent format.
+
+The influence of this model on the code is seen in the call to the "openai.Completion.create" function in the "on_message" method. This method uses the "text-davinci-002" model to complete the provided text and returns a response with the improved text. The response is then sent back to the user via Discord.
+
+In conclusion, OpenAI's GPT-3 models allow the Discord bot to use artificial intelligence to improve text provided by users. These models are designed to understand and generate human text, making them ideal for text improvement tasks.
 
