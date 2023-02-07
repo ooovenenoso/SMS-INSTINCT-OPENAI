@@ -14,7 +14,7 @@ Finally, an "on_message" event is created that is triggered when a user sends a 
 ```git clone https://github.com/ooovenenoso/SMS-INSTINCT-OPENAI.git```
 
 2. Navigate to the project directory
-```cd SMS-Instinct```
+```cd SMS-INSTINCT-OPENAI```
 3. Install the dependencies
 ```pip install -r requirements.txt```
 4. Create a new bot in Discord Developer Portal and get its API token. Then create a new API key in OpenAI and add it to your environment variables as OPENAI_API_KEY.
